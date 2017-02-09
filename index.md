@@ -1,6 +1,6 @@
 ---
 title: Index Page
-layout: default
+layout: inner1col
 active: index
 ---
 # This is the Home Page of the Sample Static Site
