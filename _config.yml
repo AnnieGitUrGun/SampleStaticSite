@@ -1,0 +1,25 @@
+# Site Settings
+title: Anne Canoune
+email: A.Canoune@gmail.com
+twitter_username: AnnieGitUrGun
+github_username: AnneGitUrGun
+description: My corner of the internet.
+
+safe:        false
+encoding: utf-8
+#auto:        true
+#server:      false
+port: 4008
+host: localhost
+baseurl:     /
+source:      .
+destination: ./_site
+plugins_dir:     ./_plugins
+future:      true
+markdown:    kramdown
+highlighter: rouge
+permalink:   date
+sass:
+  sass_dir: _sass
+  style: compressed
+gems: [jekyll-assets, sprockets]

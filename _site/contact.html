@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A portfolio template that uses Material Design Lite.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="/stylesheets/material-design-lite.css">
+    <link rel="stylesheet" href="/stylesheets/site.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
+    <div class="mdl-layout__header-row portfolio-logo-row">
+        <span class="mdl-layout__title">
+            <div class="portfolio-logo"></div>
+            <span class="mdl-layout__title">Simple portfolio website</span>
+        </span>
+    </div>
+    <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
+        <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+            <a href="index.html"  class="mdl-navigation__link" >Home</a>
+            <a href="portfolio.html"  class='mdl-navigation__link' >Portfolio</a>
+            <a href="blog.html"  class="mdl-navigation__link" >Blog</a>
+            <a href="talks.html"  class="mdl-navigation__link" >Talks</a>
+            <a href="contact.html"  class='mdl-navigation__link is-active' >Contact</a>
+        </nav>
+    </div>
+</header>
+<div class="mdl-layout__drawer mdl-layout--small-screen-only">
+    <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+        <a href="index.html"  class="mdl-navigation__link" >Home</a>
+        <a href="portfolio.html"  class='mdl-navigation__link' >Portfolio</a>
+        <a href="blog.html"  class="mdl-navigation__link" >Blog</a>
+        <a href="talks.html"  class="mdl-navigation__link" >Talks</a>
+        <a href="contact.html"  class='mdl-navigation__link is-active' >Contact</a>
+    </nav>
+</div>
+        <main class="mdl-layout__content">
+            
+           	
+       		 	<div class="mdl-grid portfolio-max-width portfolio-contact">
+	<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
+			<div class="mdl-card__title">
+			<h2 class="mdl-card__title-text">Get in Touch!</h2>
+			</div>
+			<div class="mdl-card__media">
+            <img class="article-image" src="../img/KingsCanyon-2328.jpg" border="0" alt="">
+        </div>
+			<div class="mdl-card__supporting-text">
+			
+			</div>
+			<form action="https://formspree.io/A.Canoune@gmail.com" class="" method="POST">
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" pattern="[A-Z,a-z, ]*" type="text" name="name" id="Name">
+                <label class="mdl-textfield__label" for="Name">Name...</label>
+                <span class="mdl-textfield__error">Letters and spaces only</span>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="text" name="_replyto" id="Email">
+                <label class="mdl-textfield__label" for="Email">Email...</label>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <textarea class="mdl-textfield__input" type="text" rows="5" name="message" id="note"></textarea>
+                <label class="mdl-textfield__label" for="note">Enter note</label>
+                <input type="hidden" name="_next" value="http://localhost:4008/index.html" />
+            </div>
+            <p>
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
+                    Submit
+                </button>
+            </p>
+        </form>
+	</div>
+</div>
+        
+
+   		 	
+
+            <footer class="mdl-mini-footer">
+    <div class="mdl-mini-footer__left-section">
+        <div class="mdl-logo">&copy; 2016 Anne Canoune</div>
+    </div>
+    <div class="mdl-mini-footer__right-section">
+        <ul class="mdl-mini-footer__link-list">
+            <li>
+                <a href="https://twitter.com/AnnieGitUrGun">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-square-o fa-stack-2x"></i>
+                        <i class="fa fa-twitter fa-stack-1x"></i>
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/AnnieGitUrGun">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-square-o fa-stack-2x"></i>
+                        <i class="fa fa-github-alt fa-stack-1x"></i>
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="https://plus.google.com/u/0/100473740886508499890">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-square-o fa-stack-2x"></i>
+                        <i class="fa fa-google-plus fa-stack-1x"></i>
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</footer>
+        </main>
+    </div>
+    <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+</body>
+
+</html>
