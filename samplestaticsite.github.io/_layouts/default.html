@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        {% include nav.html %}
+        <main class="mdl-layout__content">
+            
+           	{% if page.active == 'portfolio' %} 
+           		{% include portfolio.html %} 
+           	{% elsif page.active == 'contact' %}
+       		 	{% include contact.html %}
+   		 	{% elsif page.active == 'blog' %}
+       		 	{% include blog.html %}
+   		 	{% else %} 
+           		{{ content }} 
+       		{% endif %}
+
+            {% include footer.html %}
+        </main>
+    </div>
+    <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+</body>
+
+</html>

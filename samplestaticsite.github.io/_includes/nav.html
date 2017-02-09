@@ -1,0 +1,26 @@
+<header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
+    <div class="mdl-layout__header-row portfolio-logo-row">
+        <span class="mdl-layout__title">
+            <!-- <div class="portfolio-logo"></div> -->
+            <span class="mdl-layout__title">Simple portfolio website</span>
+        </span>
+    </div>
+    <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
+        <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+            <a href="index.html" {% if page.active == 'index' %} class='mdl-navigation__link is-active' {% else %} class="mdl-navigation__link" {% endif %}>Home</a>
+            <a href="portfolio.html" {% if page.active == 'portfolio' %} class='mdl-navigation__link is-active' {% else %} class='mdl-navigation__link' {% endif %}>Portfolio</a>
+            <a href="blog.html" {% if page.active == 'blog' %} class='mdl-navigation__link is-active' {% else %} class="mdl-navigation__link" {% endif %}>Blog</a>
+            <a href="talks.html" {% if page.active == 'talks' %} class='mdl-navigation__link is-active' {% else %} class="mdl-navigation__link" {% endif %}>Talks</a>
+            <a href="contact.html" {% if page.active == 'contact' %} class='mdl-navigation__link is-active' {% else %} class="mdl-navigation__link" {% endif %}>Contact</a>
+        </nav>
+    </div>
+</header>
+<div class="mdl-layout__drawer mdl-layout--small-screen-only">
+    <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+        <a href="index.html" {% if page.active == 'index' %} class='mdl-navigation__link is-active' {% else %} class="mdl-navigation__link" {% endif %}>Home</a>
+        <a href="portfolio.html" {% if page.active == 'portfolio' %} class='mdl-navigation__link is-active' {% else %} class='mdl-navigation__link' {% endif %}>Portfolio</a>
+        <a href="blog.html" {% if page.active == 'blog' %} class='mdl-navigation__link is-active' {% else %} class="mdl-navigation__link" {% endif %}>Blog</a>
+        <a href="talks.html" {% if page.active == 'talks' %} class='mdl-navigation__link is-active' {% else %} class="mdl-navigation__link" {% endif %}>Talks</a>
+        <a href="contact.html" {% if page.active == 'contact' %} class='mdl-navigation__link is-active' {% else %} class="mdl-navigation__link" {% endif %}>Contact</a>
+    </nav>
+</div>
