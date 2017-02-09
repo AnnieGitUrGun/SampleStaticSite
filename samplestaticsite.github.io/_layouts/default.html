@@ -11,12 +11,12 @@
            	{% if page.active == 'portfolio' %} 
            		{% include portfolio.html %} 
            	{% elsif page.active == 'contact' %}
-       		 	{% include contact.html %}
-   		 	{% elsif page.active == 'blog' %}
-       		 	{% include blog.html %}
-   		 	{% else %} 
+              {% include contact.html %}
+            {% elsif page.active == 'blog' %}
+              {% include blog.html %}
+            {% else %} 
            		{{ content }} 
-       		{% endif %}
+            {% endif %}
 
             {% include footer.html %}
         </main>

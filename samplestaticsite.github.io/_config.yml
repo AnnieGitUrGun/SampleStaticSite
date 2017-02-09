@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   This is a proof of concept showing how easy it is to create and NOT
   have to worry about things like who's gonna host it or up/down time.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "samplestaticsite.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "annecanoune.com/SampleStaticSite/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: AnnieGitUrGun
 github_username:  AnnieGitUrGun
 
